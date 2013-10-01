@@ -1,0 +1,20 @@
+#ifndef _TILEINFO_H_
+#define _TILEINFO_H_
+
+#define TOTALCOUNT_TILE_W 5
+#define TOTALCOUNT_TILE_H 5
+
+#define SIZE_TILE_W 50
+#define SIZE_TILE_H 50
+
+
+struct TILEVERTEX
+{
+	D3DXVECTOR3 vPos;
+	D3DXVECTOR3 vNormal;
+	float fU, fV;
+};
+
+#define D3DFVF_CUSTOMVERTEX ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_TEX1 )
+
+#endif
